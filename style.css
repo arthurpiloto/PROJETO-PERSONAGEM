@@ -92,7 +92,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 75px;
 
 }
@@ -106,18 +105,39 @@ footer{
 @media(max-width: 768px){
     header{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         height: 36px;
-    }
-    .logo-link{
-        display: flex;
-        margin: 15px;
+        margin-top: 8px;
     }
     .menu-img{
-        width: 85px;
+        width: 0px;
     }
     .menu-bar{
         display: flex;
+    }
+    .menu-item{
+        margin: 10px;
+    }
+    .menu-item:hover{
+        background-color: #f6f6f6;
+        border: 0px;
+    }
+    .more-details:hover{
+        background-color: #f6f6f6;
+        border: 0px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    .luffy-details, .more-details{
+        font-size: 17px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 36px;
     }
 }
