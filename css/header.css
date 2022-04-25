@@ -4,6 +4,8 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 116px;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 .logo-container{
@@ -29,6 +31,7 @@ header{
 
 .link-item:hover{
     background-color: #74D7FD;
+    color: white;
     border-radius: 8px;
     padding: 10px 12px 10px 12px;
 }
