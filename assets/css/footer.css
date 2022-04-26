@@ -26,4 +26,9 @@ footer{
     justify-content: center;
     border-radius: 50%;
     border: 2px solid #000000;
+    transition: .7s;
+}
+
+.social-container a:hover{
+    background-color: #4c98d3;
 }

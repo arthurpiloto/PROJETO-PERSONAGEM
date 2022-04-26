@@ -26,11 +26,11 @@ header{
 }
 
 .link-item{
-    transition: 700ms;
+    transition: .7s ;
 }
 
 .link-item:hover{
-    background-color: #74D7FD;
+    background-color: #4c98d3;
     color: white;
     border-radius: 8px;
     padding: 10px 12px 10px 12px;
