@@ -4,8 +4,10 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 116px;
+    width: 100vw;
     font-size: 1.3rem;
     font-weight: lighter;
+    position: fixed;
 }
 
 .logo-container{
